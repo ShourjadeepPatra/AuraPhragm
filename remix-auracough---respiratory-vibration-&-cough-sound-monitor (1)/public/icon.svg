@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#0f172a"/>
+  <!-- Glowing circle background -->
+  <circle cx="256" cy="256" r="180" fill="#0d9488" opacity="0.15"/>
+  <circle cx="256" cy="256" r="140" fill="#0284c7" opacity="0.15"/>
+  
+  <!-- Lungs silhouette -->
+  <g fill="none" stroke="#38bdf8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Trachea -->
+    <path d="M256 120 L256 195"/>
+    <path d="M256 195 C230 205 210 220 190 250"/>
+    <path d="M256 195 C282 205 302 220 322 250"/>
+    
+    <!-- Left lung lobe -->
+    <path d="M240 230 C190 230 145 270 145 330 C145 385 185 405 225 405 C245 405 250 380 250 350 Z" stroke="#2dd4bf" fill="#0d9488" fill-opacity="0.25"/>
+    
+    <!-- Right lung lobe -->
+    <path d="M272 230 C322 230 367 270 367 330 C367 385 327 405 287 405 C267 405 262 380 262 350 Z" stroke="#2dd4bf" fill="#0d9488" fill-opacity="0.25"/>
+  </g>
+
+  <!-- Respiratory Waveform / Piezo vibration across chest -->
+  <path d="M80 270 L140 270 L165 240 L195 305 L225 215 L256 325 L287 235 L317 295 L347 250 L372 270 L432 270" 
+        fill="none" stroke="#f43f5e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sensor belt pulse points -->
+  <circle cx="256" cy="325" r="9" fill="#fbbf24"/>
+  <circle cx="225" cy="215" r="9" fill="#38bdf8"/>
+  <circle cx="287" cy="235" r="9" fill="#38bdf8"/>
+</svg>

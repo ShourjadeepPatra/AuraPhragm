@@ -1,0 +1,11 @@
+{
+  "name": "Remix AuraCough - Respiratory Vibration \u0026 Cough Sound Monitor",
+  "description": "Low-cost respiratory screening prototype for chest-wall vibrations, breathing rates, cough acoustic features, and offline-first health triage.",
+  "requestFramePermissions": [
+    "bluetooth",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
